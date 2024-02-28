@@ -264,6 +264,8 @@ export type BarChartPropsType = {
   stackBorderBottomLeftRadius?: number;
   stackBorderBottomRightRadius?: number;
   hideOrigin?: boolean;
+  originLabelContainerStyle?: any;
+  originLabelStyle?: any;
   labelWidth?: number;
   yAxisLabelTexts?: Array<string>;
   xAxisLabelTexts?: Array<string>;

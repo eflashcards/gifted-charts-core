@@ -670,6 +670,8 @@ export const getAxesAndRulesProps = (
     yAxisIndicesWidth: props.yAxisIndicesWidth,
     yAxisIndicesColor: props.yAxisIndicesColor,
     hideOrigin: props.hideOrigin,
+    originLabelContainerStyle: props.originLabelContainerStyle,
+    originLabelStyle: props.originLabelStyle,
     hideYAxisText: props.hideYAxisText,
     yAxisTextNumberOfLines: props.yAxisTextNumberOfLines,
     yAxisLabelPrefix: props.yAxisLabelPrefix,

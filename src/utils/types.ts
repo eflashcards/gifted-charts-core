@@ -60,6 +60,8 @@ export type secondaryYAxisType = {
   yAxisLabelPrefix?: string;
   yAxisLabelSuffix?: string;
   hideOrigin?: boolean;
+  originLabelContainerStyle?: any;
+  originLabelStyle?: any;
   formatYLabel?: (label: string) => string;
 };
 
@@ -150,6 +152,8 @@ export type horizSectionPropTypes = {
   yAxisIndicesColor: string;
 
   hideOrigin: boolean;
+  originLabelContainerStyle?: any;
+  originLabelStyle?: any;
   hideYAxisText: boolean;
   showFractionalValues: boolean;
   yAxisTextNumberOfLines: number;

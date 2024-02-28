@@ -27,6 +27,8 @@ export const getHorizSectionVals = (props) => {
     yAxisIndicesColor,
 
     hideOrigin,
+    originLabelContainerStyle,
+    originLabelStyle,
     hideYAxisText,
     showFractionalValues,
     yAxisTextNumberOfLines,
@@ -92,6 +94,8 @@ export const getHorizSectionVals = (props) => {
     yAxisLabelPrefix: secondaryYAxis?.yAxisLabelPrefix ?? yAxisLabelPrefix,
     yAxisLabelSuffix: secondaryYAxis?.yAxisLabelSuffix ?? yAxisLabelSuffix,
     hideOrigin: secondaryYAxis?.hideOrigin ?? hideOrigin,
+    originLabelContainerStyle: secondaryYAxis?.originLabelContainerStyle ?? originLabelContainerStyle,
+    originLabelStyle: secondaryYAxis?.originLabelStyle ?? originLabelStyle,
     formatYLabel: secondaryYAxis?.formatYLabel,
   };
 

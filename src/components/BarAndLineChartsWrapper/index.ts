@@ -65,6 +65,8 @@ export const useBarAndLineChartsWrapper = (
 
   const hideOrigin =
     axesAndRulesProps.hideOrigin ?? AxesAndRulesDefaults.hideOrigin;
+  const originLabelContainerStyle = axesAndRulesProps?.originLabelContainerStyle ?? AxesAndRulesDefaults?.originLabelContainerStyle;
+  const originLabelStyle = axesAndRulesProps.originLabelStyle ?? AxesAndRulesDefaults?.originLabelStyle;
 
   const yAxisSide =
     axesAndRulesProps.yAxisSide ?? AxesAndRulesDefaults.yAxisSide;
@@ -199,6 +201,8 @@ export const useBarAndLineChartsWrapper = (
     yAxisIndicesColor,
 
     hideOrigin,
+    originLabelContainerStyle,
+    originLabelStyle,
     hideYAxisText,
     showFractionalValues,
     yAxisTextNumberOfLines,

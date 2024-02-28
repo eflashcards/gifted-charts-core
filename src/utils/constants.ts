@@ -79,6 +79,8 @@ export const AxesAndRulesDefaults = {
   xAxisIndicesColor: "black",
 
   hideOrigin: false,
+  originLabelContainerStyle: undefined,
+  originLabelStyle: undefined,
   hideYAxisText: false,
   yAxisTextNumberOfLines: 1,
 
